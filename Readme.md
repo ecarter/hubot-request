@@ -20,6 +20,21 @@ request [plugin](https://github.com/github/hubot-scripts) for
     hubot request delete <url> [options] - send DELETE request
     hubot request help - show help
 
+## Usage
+
+    Usage: (request|req) <verb> <url> [options]
+
+    Options:
+
+      -h, --help              output usage information
+      -u, --url <url>         Request URL
+      -m, --method <verb>     CREATE | DELETE | GET | POST | PUT
+      -a, --auth <user:pass>  Authentication user:pass
+      -s, --header <field>    Set header fields
+      -h, --no-header         Hide response header
+      -q, --query <string>    Query string
+      -p, --send <fields>     POST / PUT fields
+
 ## Examples
 
   **GET**
@@ -41,21 +56,6 @@ request [plugin](https://github.com/github/hubot-scripts) for
   **DELETE**
 
     hubot delete http://localhost:3000/models/1.json
-
-## Usage
-
-    Usage: (request|req) <verb> <url> [options]
-
-    Options:
-
-      -h, --help              output usage information
-      -u, --url <url>         Request URL
-      -m, --method <verb>     CREATE | DELETE | GET | POST | PUT
-      -a, --auth <user:pass>  Authentication user:pass
-      -s, --header <field>    Set header fields
-      -h, --no-header         Hide response header
-      -q, --query <string>    Query string
-      -p, --send <fields>     POST / PUT fields
 
 ## Configuration
 
