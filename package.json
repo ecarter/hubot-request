@@ -1,0 +1,28 @@
+{
+  "name": "hubot-request",
+  "version": "0.0.1",
+  "description": "SuperAgent backed HTTP request plugin for hubot",
+  "main": "request.coffee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecarter/hubot-request.git"
+  },
+  "dependencies": {
+    "superagent": "0.9.8",
+    "commander": "1.0.5",
+    "shellwords": "0.1.0",
+    "qs": "0.5.1"
+  },
+  "devDependencies": {
+    "express": "*"
+  },
+  "keywords": [
+    "hubot",
+    "superagent",
+    "request",
+    "http",
+    "hubot-scripts"
+  ],
+  "author": "Erin Carter",
+  "license": "MIT"
+}
